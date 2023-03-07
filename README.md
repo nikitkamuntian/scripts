@@ -1,3 +1,5 @@
+https://polarnik.github.io/performance.testing/#15
+
 # scripts
 CURL
 ================
@@ -26,3 +28,4 @@ cat /tmp/test.url.txt
 
 # 10 сессий с паузами 0.1 между запросами, которые берутся из файла /tmp/test.url.txt
 httperf --server yandex.ru --wsesslog=10,0.1,/tmp/test.url.txt --rate=3
+
